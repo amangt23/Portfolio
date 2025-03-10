@@ -31,8 +31,8 @@ export function About() {
                        <div className="flex justify-between flex-col sm:flex-row sm:pl-[10%]">
                         <div>
                         <h3 className="font-bold text-xl sm:text-2xl md:text-3xl  text-[#15c6c6]">Graduation</h3>
-                        <h1 className="italic text-sm  text-[#adefef]">Birla Institute of Techonlogy, Mesra</h1>
-                        <h1 className="italic text-xs  text-[#d9fbfb]">(2024 to 2027)</h1>
+                        <h1 className="italic text-sm  text-[#adefef]">National Institute of Techonlogy, Warangal</h1>
+                        <h1 className="italic text-xs  text-[#d9fbfb]">(2022 to 2025)</h1>
                         </div>
                 
                         <p className="text-sm sm:w-3/5 w-auto sm:text-base">
@@ -48,7 +48,7 @@ export function About() {
                         <div>
                         <h3 className="font-bold text-xl sm:text-2xl md:text-3xl  text-[#15c6c6]">Higher Secondary</h3>
                         <h1 className="italic text-sm  text-[#adefef]">DAV Public School, Hazaribagh</h1>
-                        <h1 className="italic text-xs  text-[#d9fbfb]">Score:95.2%</h1>
+                        
                         </div>
                 
                         <p className="text-sm sm:w-3/5 w-auto sm:text-base">
@@ -63,11 +63,11 @@ export function About() {
                         <div>
                         <h3 className="font-bold text-xl sm:text-2xl md:text-3xl  text-[#15c6c6]">Matriculation</h3>
                         <h1 className="italic text-sm  text-[#adefef]">DAV Public School, Hazaribagh</h1>
-                        <h1 className="italic text-xs  text-[#d9fbfb]">Score:96.2%</h1>
+                        
                         </div>
                 
                         <p className="text-sm sm:w-3/5 w-auto sm:text-base">
-                        I’m pursuing a B.Tech in AI and Machine Learning, building expertise in core computer science and specialized fields like AI, machine learning, and data science to tackle industry challenges
+                        I’m pursuing a B.Tech in computer science, building expertise in core computer science and specialized fields like AI, machine learning, and data science to tackle industry challenges
 
                             </p>
                             </div>
