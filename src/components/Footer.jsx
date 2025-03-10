@@ -47,7 +47,7 @@ export function Footer(){
           <Link to="About" smooth={true} duration={500} className="hover:text-gray-300 cursor-pointer">About</Link>           
           </div>
           <div className="flex">
-          @2025 Aniket Gupta. All rights reserved
+          @2025 Aman Gupta. All rights reserved
           </div>        
         </div>
         </div>
