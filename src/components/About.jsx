@@ -36,7 +36,7 @@ export function About() {
                         </div>
                 
                         <p className="text-sm sm:w-3/5 w-auto sm:text-base">
-                        I’m pursuing a B.Tech in AI and Machine Learning, building expertise in core computer science and specialized fields like AI, machine learning, and data science to tackle industry challenges
+                        I’m pursuing a B.Tech in computer science, building expertise in core computer science and specialized fields like AI, machine learning, and data science to tackle industry challenges.
 
                             </p>
                             </div>
@@ -67,7 +67,7 @@ export function About() {
                         </div>
                 
                         <p className="text-sm sm:w-3/5 w-auto sm:text-base">
-                        I’m pursuing a B.Tech in computer science, building expertise in core computer science and specialized fields like AI, machine learning, and data science to tackle industry challenges
+                        I completed my Matriculation with a focus on core subjects, laying the foundation for my academic journey and nurturing my interest in fields that ultimately guided me towards a career in technology.
 
                             </p>
                             </div>
