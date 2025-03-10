@@ -1,4 +1,5 @@
-import portfolio from "../assets/mactest.webp"
+import portfolio from "../assets/pf.png"
+import blog from "../assets/bg.png"
 import netflix from "../assets/ipadtest.webp"
 
 export function Works() {
@@ -16,6 +17,41 @@ export function Works() {
   Latest Works
 </h2>
 </div>
+<div className="flex flex-col sm:flex-row gap-4 mt-12 sm:gap-[80px] items-center sm:mt-20 relative">
+  <div className="order-2 sm:order-1 w-full">
+    <h3 className="text-[#FF5733] font-bold text-2xl md:text-4xl">Blogging Platform</h3>
+    <span className="text-[#FF5733] text-base md:text-lg">(Full Stack Blog Website)</span>
+    <p className="text-justify text-sm md:text-base mt-2">
+      A Full Stack blog website for people to share their ideas. The platform allows users to create posts, 
+      edit or delete them later, and interact with others by liking or disliking posts. Additionally, users have a 
+      profile section where they can view all their activity.
+    </p>
+    <ul className="flex flex-wrap gap-2 mt-2">
+      <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">#mongodb</li>
+      <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">#nodejs</li>
+      <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">#express</li>
+      <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">#react</li>
+      <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">#jwt</li>
+    </ul>
+  </div>
+  <div className="h-[1px] left-1/2 right-1/4 bg-[#FF5733] shadow-[0_0_40px_5px_#FF9633] absolute top-1/2 hidden sm:block"></div>
+  <div className="w-4 h-4 rounded-full border-[3px] border-[#FF5733] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block"></div>
+  <a href="https://cheap-blog-site.netlify.app/" target="_blank" rel="noopener noreferrer" className="order-1 sm:order-2 flex w-full relative justify-center sm:justify-start">
+    <div className="flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200 sm:ml-auto">
+      <img className="max-w-[500px] w-full relative z-10 drop-shadow-[0_0px_60px_rgba(255,120,50,0.6)]"
+        src={blog} alt="Blogging Platform" />
+      <span className="flex group-hover:-top-14 ease-jump duration-200 text-black bg-[#FF5733] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2">
+        Blogging Platform
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-external-link">
+          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+          <polyline points="15 3 21 3 21 9"></polyline>
+          <line x1="10" y1="14" x2="21" y2="3"></line>
+        </svg>
+      </span>
+    </div>
+  </a>
+</div>
+
         <div className="flex flex-col sm:flex-row gap-4 mt-8 sm:gap-[80px] items-center sm:mt-20 relative">
         <div className="w-4 h-4 rounded-full border-[3px] border-[#459bd5] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block"></div>
           <div className="h-[1px] left-1/4 right-1/2 bg-[#459bd5] shadow-[0_0_30px_5px_#459bd5] absolute top-1/2 hidden sm:block"></div>
